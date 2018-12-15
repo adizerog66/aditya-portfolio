@@ -91,7 +91,8 @@ a{
    }
 
    .side-nav{
-     height: 100%;
+     overflow: hidden;
+     height: auto;
      width: 80px;
      position: fixed;
      z-index: 1;
@@ -123,25 +124,29 @@ a{
   .side-nav a.active{
     opacity: 1;
     font-weight: 700;
-    background-color: #0d0d12
+    
     
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 500px) {
     .side-nav {
       width: 100%;
-      padding-top: 0px;
-      position: relative;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      
     }
     .side-nav a {
+      padding: 0px;
+      width: 25%;
+      min-width: 20%;
       float: left;
-      padding: 20px;
-      width: auto;}
+      text-align:left}
    
     .heroGroup{
      overflow-wrap:normal;
-     padding: 20px;
-     min-width: 300px;
+     padding: 80px 20px 60px 20px;
+     min-width: 320px;
    }
   }
 
