@@ -21,7 +21,7 @@ const IndexPage = () => (
       <div className="heroGroup">
       <p class="kerned grey"> intro </p>
       <h1> Hi! I'm <span class="yellow">Aditya</span> <span class="blue">Garikapati</span>, an interaction designer <span class="grey">looking to graduate in the summer of 2019. </span></h1>
-      <p class="small grey"> Currently working at my college's incubator sculpting ideas and concepts into prototypes and realizable product strategies. </p>
+      <p class="small grey"> Currently working at my college's incubator sculpting ideas and concepts into tangible prototypes and realizable product strategies. </p>
       <Link to="/page-2/">View resume <i class="right"></i> </Link>
       
       </div>
